@@ -1,17 +1,16 @@
-body.landing {
-  background-image:url(../images/portrait1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:100% 100%;
+.container {
+  margin: 0 auto;
+  max-width: 64rem;
 }
 
 .hero-content {
   position: relative;
   min-height: 600px;
-  background-image: url(../assets/images/bloc_jams_bg.jpg);
+  background-image: url(../images/Portrait1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment:fixed;
 }
 
 .hero-content .hero-title {
@@ -26,7 +25,7 @@ body.landing {
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:0.9rem;
-  text-shadow: 1px 1px 0px rgb(58,23,63);
+  text-shadow: .2px .2px 0px rgb(58,23,63);
   font-family: 'STIXGeneral', serif;
 }
 
@@ -42,13 +41,13 @@ body.landing {
   font-weight:200;
   text-transform:uppercase;
   letter-spacing:0.1rem;
-  text-shadow: 1px 1px 0px rgb(58,23,63);
+  text-shadow: .2px .2px 0px rgb(58,23,63);
   font-family: 'Gurmukhi MT', sans-serif;
 }
 
 .hero-content .hero-text {
   position:absolute;
-  top:65%;
+  top:70%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -62,8 +61,19 @@ body.landing {
   font-family: 'SF Pro display', sans-serif;
 }
 
-.selling-points {
+.latest-work {
   position: relative;
+}
+
+.latest-work .work-header {
+  position:relative;
+  width: 100%;
+  text-align: center;
+  font-size:.9rem;
+  font-weight:100;
+  letter-spacing:0.05rem;
+  color: #141414;
+  font-family: 'SF Pro display', sans-serif;
 }
 
 .point {
@@ -84,11 +94,4 @@ body.landing {
 
 .point .point-title {
   font-size: 1.25rem;
-}
-
-.ion-music-note,
-.ion-radio-waves,
-.ion-iphone {
-  color: rgb(233,50,117);
-  font-size: 5rem;
 }

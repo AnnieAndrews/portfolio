@@ -29,11 +29,17 @@ body nav div {
 .navbar .logo {
   position: relative;
   left: 2rem;
-  top: 0;
-  right:0;
   text-decoration:none;
   color:#141414;
+  font-size:0.85rem;
+  letter-spacing:0.05rem;
+  font-weight:400;
   cursor:pointer;
+  height:100%;
+  vertical-align:middle;
+  display:table-cell;
+  padding-left:1rem;
+  padding-right:1rem
 }
 
 .navbar .links-container {
@@ -54,7 +60,7 @@ body nav div {
   padding-left:1rem;
   padding-right:1rem;
   vertical-align:middle;
-  color:white;
+  color:#141414;
   font-size:0.625rem;
   letter-spacing:0.05rem;
   font-weight:700;
