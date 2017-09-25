@@ -1,0 +1,13 @@
+.about-me .info {
+position:relative;
+padding:2rem;
+font-family:sans-serif;
+top:40%;
+width: 50%;
+text-align: center;
+font-size:2rem;
+font-weight:200;
+text-transform:none;
+letter-spacing:0.2rem;
+color:#141414;
+}
