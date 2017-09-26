@@ -20,10 +20,13 @@ body nav div {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   padding: 0.5rem;
-  background-color: rgba(255,255,255,.95);
+  background-color: rgba(255,255,255,.98);
   z-index:1;
+  overflow:hidden;
+  top: 0;
+  width:100%;
 }
 
 .navbar .logo {
