@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+.hero-content {
+  position: relative;
+  min-height: 700px;
+  background-image: url(../images/solsquad/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.project {
+  position: relative;
+}
+
+.backing {
+  position: absolute;
+  top: 60%;
+  color:#FFFFFF;
+  height: 30%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0, 0.4);
+  overflow:hidden;
+  text-align:left;
+  background-attachment:fixed;
+}​
+
+hr.thin {
+  height: .5px;
+  border: 0;
+  color: #141414;
+  background-color: #c3c3c3;
+  width: 90%;
+  margin:10px;
+  position:relative;
+}

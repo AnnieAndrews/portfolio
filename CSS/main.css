@@ -10,8 +10,6 @@ html {
 }
 
 body {
-  font-family:'open sans';
-  color:#FFFFFF;
   min-height: 100%;
 }
 
@@ -27,6 +25,8 @@ body nav div {
   overflow:hidden;
   top: 0;
   width:100%;
+  font-family:'open sans';
+  color:#FFFFFF;
 }
 
 .navbar .logo {
