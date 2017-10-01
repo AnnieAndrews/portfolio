@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment:none;
 }
 
 .project {
@@ -20,15 +20,21 @@
 .backing {
   position: absolute;
   top: 60%;
-  color:#FFFFFF;
-  height: 30%;
+  height: 26%;
   width: 100%;
   z-index: 1;
   background-color: rgba(0,0,0, 0.4);
   overflow:hidden;
   text-align:left;
-  background-attachment:fixed;
 }​
+
+.hero-content p {
+  line-height: 1.8;
+  font-family: "pragmatica-web",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}
 
 hr.thin {
   height: .5px;
@@ -38,4 +44,91 @@ hr.thin {
   width: 90%;
   margin:10px;
   position:relative;
+}
+
+.body-name {
+    padding: 0.5em 0;
+}
+
+.body-name h4 {
+  text-transform:uppercase;
+  text-align:center;
+  font-size: 2em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family:sans-serif;
+}
+
+.body-name a {
+  text-decoration:none;
+  color:#141414;
+}
+
+.content-area .body-intro p {
+  font-size: 1.05em;
+}
+
+.body-intro {
+    padding: 1.1em 0;
+}
+
+.content-area p {
+  line-height: 1.8;
+  font-family: "pragmatica-web",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-align: left;
+}
+
+.content-area h2 {
+  font-size: 1.75em;
+  padding-bottom: .75em;
+  text-align: center;
+  border-bottom: 2px solid rgb(227, 237, 233);
+  font-family:sans-serif;
+}
+
+.content-area h3 {
+  padding-bottom: 7px;
+  margin-top: 2.5em;
+  margin-bottom: 20px;
+  font-size: 1.25em;
+  /*border-bottom: 2px solid rgb(227, 237, 233);*/
+  text-align: left;
+  text-transform:uppercase;
+  font-family:sans-serif;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.the-problem {
+    background-color: #EEF2EF;
+    padding: 3.5em 0px;
+}
+
+.conclusion {
+    padding: 3.5em 0;
+    background: #AAB1AD;
+    color: white;
+}
+
+.the-solution {
+    padding: 3.5em 0;
+    background: rgb(50,145,113);
+    color: white;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+.body-copy img {
+    margin: 10px 0;
+}
+
+.content-area img {
+    width: 100%;
 }
