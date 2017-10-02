@@ -36,6 +36,11 @@
   text-align: center;
 }
 
+.column {
+  width:50%;
+  float:left;
+}
+
 hr.thin {
   height: .5px;
   border: 0;
@@ -56,7 +61,8 @@ hr.thin {
   font-size: 2em;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-family:sans-serif;
+  font-family:'lato', sans-serif;
+  font-weight:300;
 }
 
 .body-name a {
