@@ -55,7 +55,8 @@ body nav div {
   position:relative;
   text-decoration:none;
   color:#141414;
-  font-family:'lato', sans-serif;
+  font-family: 'Gurmukhi MT', sans-serif;
+  font-weight:300;
 }
 
 .navbar .links {
@@ -103,7 +104,8 @@ body nav div {
   color:#141414;
   font-weight:700;
   text-decoration:none;
-  font-family:'lato', sans-serif;
+  font-family: 'Gurmukhi MT', sans-serif;
+  font-weight:600;
   cursor:pointer;
 }
 
@@ -111,6 +113,99 @@ body nav div {
   color:#B9CBC4;
 }
 /*End Nav Bar CSS*/
+
+
+/*Footer CSS*/
+.footer {
+  /*border-top: 1px solid black;*/
+  height: 100%;
+  display: block;
+  bottom:0;
+  padding: 0.05rem;
+  background-color: #AAB1AD;
+  overflow:hidden;
+  width:100%;
+  z-index: 2000;
+}
+
+.copyright-info {
+  width: 50%;
+  float: left;
+}
+
+.copyright-info p {
+  padding-top: 15px;
+  text-align: left;
+  margin-right: 40px;
+  font-size: .7em;
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 1.8;
+  font-family: "pragmatica-web",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  cursor:default;
+}
+
+.social-bar {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+.social-bar ul {
+  text-align: right;
+  list-style: none;
+}
+
+.social-bar li {
+  display: inline;
+  padding-right: 10px;
+  font-family: "pragmatica-web",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.social-bar a {
+  text-decoration: none;
+  color: #141414;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.social-bar li i {
+  background-color: #FFFFFF;
+  border-radius:100px;
+  padding: 10px;
+}
+
+.social-bar li i:hover {
+  background: #141414;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.social-bar .fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+.social-bar .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*End footer CSS*/
 
 
 .container {

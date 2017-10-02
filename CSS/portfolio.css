@@ -6,8 +6,8 @@
 
 .hero-content {
   position: relative;
-  min-height: 600px;
-  background-image: url(../images/Portrait1.jpg);
+  min-height: 200px;
+  background-color:#FFFFFF;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -16,43 +16,9 @@
   margin-bottom:0;
 }
 
-.hero-content .hero-title {
-  position:absolute;
-  top:40%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-  font-size:4rem;
-  font-weight:600;
-  text-transform:uppercase;
-  letter-spacing:0.9rem;
-  text-shadow: .2px .2px 0px rgb(58,23,63);
-  font-family: 'STIXGeneral', serif;
-  cursor:default;
-}
-
-.hero-content .hero-subtitle {
-  position:absolute;
-  top:54%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-  font-size:2rem;
-  font-weight:200;
-  text-transform:uppercase;
-  letter-spacing:0.1rem;
-  text-shadow: .2px .2px 0px rgb(58,23,63);
-  font-family: 'Gurmukhi MT', sans-serif;
-  cursor:default;
-}
-
 .hero-content .hero-text {
   position:absolute;
-  top:70%;
+  top:60%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -62,9 +28,10 @@
   font-weight:100;
   text-transform:none;
   letter-spacing:0.05rem;
-  text-shadow: 1px 1px 0px rgb(58,23,63);
+  /*text-shadow: 1px 1px 0px rgb(58,23,63);*/
   font-family: 'SF Pro display', sans-serif;
   cursor:default;
+  color:#141414;
 }
 
 body {
@@ -77,25 +44,19 @@ body {
   position: relative;
 }
 
-.filler {
-  width:100%;
-  padding-right:25px;
-  padding-left:25px;
-  padding-top:20px;
-  padding-bottom:0px;
-}
-
-.filler .work-header {
+.latest-work .work-header {
   position:relative;
   width: 100%;
   text-align: center;
-  font-size:2em;
+  font-size:1rem;
+  font-weight:300;
   letter-spacing:0.05rem;
   color: #141414;
+  font-family: 'SF Pro display', sans-serif;
   cursor:default;
   text-transform:uppercase;
-  font-family:'lato', sans-serif;
-  font-weight:300;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .tiles {
@@ -239,38 +200,7 @@ article {
   color:#141414;
 }
 
-.continue-on {
+.filler {
   width:100%;
-  text-align:center;
-}
-
-.btn {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  font-family: 'open-sans', sans-serif;
-  color: #141414;
-  font-size: .65em;
-  font-weight:400;
-  letter-spacing:1px;
-  text-decoration: none;
-  text-transform:uppercase;
-  text-align:center;
-  background: #FFFFFF;
-  padding-right:30px;
-  padding-left:30px;
-  padding-top:11px;
-  padding-bottom:11px;
-  margin:30px;
-  border-radius: 3px;
-  background:transparent;
-  border: solid #141414 1.5px;
-  align-items:center;
-  display:inline-block;
-  min-width:75px;
-}
-
-.btn:hover {
-  background: #141414;
-  text-decoration: none;
-  color:#FFFFFF;
+  padding:25px;
 }
