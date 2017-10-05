@@ -1,3 +1,18 @@
+.top-angle {
+  border-color: transparent #ffffff;
+  border-top-color: transparent;
+  border-right-color: rgb(255, 255, 255);
+  border-bottom-color: transparent;
+  border-left-color: rgb(255, 255, 255);
+  width: 0;
+  height: 0;
+  border-color: rgba(255,255,255,0) #ffffff;
+  border-style: solid solid solid dashed;
+  border-width: 400px 0 0 0;
+  margin-top: -70px;
+}
+
+
 .container {
   margin: 0 auto;
   width:65%;
@@ -6,7 +21,7 @@
 
 .hero-content {
   position: relative;
-  min-height: 600px;
+  min-height: 700px;
   background-image: url(../images/Portrait1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -14,16 +29,18 @@
   background-attachment:fixed;
   padding-bottom:0;
   margin-bottom:0;
+  color:#ffffff;
+  z-index:0;
 }
 
 .hero-content .hero-title {
-  position:absolute;
-  top:40%;
+  position:fixed;
+  top:35%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size:4rem;
   font-weight:600;
   text-transform:uppercase;
@@ -31,16 +48,17 @@
   text-shadow: .2px .2px 0px rgb(58,23,63);
   font-family: 'STIXGeneral', serif;
   cursor:default;
+  margin-bottom:20px;
 }
 
 .hero-content .hero-subtitle {
-  position:absolute;
-  top:54%;
+  position:fixed;
+  top:45%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size:2rem;
   font-weight:200;
   text-transform:uppercase;
@@ -51,13 +69,13 @@
 }
 
 .hero-content .hero-text {
-  position:absolute;
-  top:70%;
+  position:fixed;
+  top:55%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size:.9rem;
   font-weight:100;
   text-transform:none;
@@ -67,11 +85,6 @@
   cursor:default;
 }
 
-body {
-  font-family:'open sans';
-  color:#FFFFFF;
-  min-height: 100%;
-}
 
 .latest-work {
   position: relative;
@@ -102,6 +115,7 @@ body {
   display:flex;
   flex-wrap:wrap;
   max-width: 64rem;
+  font-family:'open-sans', sans-serif;
 }
 
 .tiles article {

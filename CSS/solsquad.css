@@ -56,13 +56,14 @@ hr.thin {
 }
 
 .body-name h4 {
-  text-transform:uppercase;
+  text-transform:lowercase;
   text-align:center;
   font-size: 2em;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-family:'lato', sans-serif;
-  font-weight:300;
+  font-family:'Bangla MN', sans-serif;
+  font-style:italic;
+  font-weight:900;
 }
 
 .body-name a {
@@ -88,7 +89,7 @@ hr.thin {
 
 .content-area h2 {
   font-size: 1.75em;
-  padding-bottom: .75em;
+  padding-bottom: .5em;
   text-align: center;
   border-bottom: 2px solid rgb(227, 237, 233);
   font-family:sans-serif;
@@ -111,19 +112,20 @@ h3 {
 }
 
 .the-problem {
-    background-color: #EEF2EF;
+    background-color: #F1F4F1;
     padding: 3.5em 0px;
+    color:#141414;
 }
 
 .conclusion {
     padding: 3.5em 0;
-    background: #AAB1AD;
-    color: white;
+    background: #F1F4F1;
+    color: #141414;
 }
 
 .the-solution {
     padding: 3.5em 0;
-    background: rgb(50,145,113);
+    background: #AAB1AD;
     color: white;
 }
 
@@ -137,4 +139,24 @@ section {
 
 .content-area img {
     width: 100%;
+}
+
+.body-copy .questions {
+  background-color: #F1F4F1;
+  padding: .5em;
+}
+
+.body-copy ul {
+  list-style:disc;
+}
+
+.body-copy li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-family:sans-serif;
+  font-size:.85em;
+  color:#141414;
+  line-height:2.2em;
+  letter-spacing:.01em;
+  font-weight:300;
 }

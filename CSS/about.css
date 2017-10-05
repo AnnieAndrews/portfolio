@@ -1,13 +1,232 @@
+.intro .title {
+position:relative;
+font-family:'open-sans', sans-serif;
+text-align: left;
+font-size:3.3rem;
+font-weight:800;
+text-transform:none;
+letter-spacing:0.03rem;
+line-height:.2rem;
+color:#141414;
+padding-bottom:0;
+margin-bottom:0;
+}
+
+.intro .subtitle {
+position:relative;
+font-family:'open-sans', sans-serif;
+text-align: left;
+font-size:2.3rem;
+font-weight:800;
+text-transform:none;
+letter-spacing:0.03rem;
+line-height:1.2rem;
+color:#141414;
+}
+
+.intro .info {
+position:relative;
+font-family:'open-sans', sans-serif;
+text-align: left;
+font-size:1.6rem;
+font-weight:800;
+text-transform:none;
+letter-spacing:0.03rem;
+line-height:1.9rem;
+color:#141414;
+}
+
+.about-me .title {
+position:relative;
+font-family:'open-sans', sans-serif;
+text-align: left;
+font-size:3.3rem;
+font-weight:800;
+text-transform:none;
+letter-spacing:0.03rem;
+line-height:1.2rem;
+color:#141414;
+padding-bottom:.5em;
+border-bottom: 2px solid rgb(227, 237, 233);
+}
+
+.about-me .subtitle {
+position:relative;
+font-family:'open-sans', sans-serif;
+text-align: left;
+font-size:2rem;
+font-weight:800;
+text-transform:none;
+letter-spacing:0.03rem;
+line-height:1rem;
+color:#141414;
+width:100%;
+}
+
 .about-me .info {
 position:relative;
-padding:2rem;
-font-family:sans-serif;
-top:40%;
-width: 50%;
-text-align: center;
-font-size:2rem;
-font-weight:200;
+font-family:'open-sans', sans-serif;
+text-align: left;
+font-size:.95rem;
+font-weight:300;
 text-transform:none;
-letter-spacing:0.2rem;
+letter-spacing:0.03rem;
+line-height:1.2rem;
 color:#141414;
+}
+
+.margin-top {
+  margin-top: 7em;
+}
+
+.container {
+  margin: 0 auto;
+  width:65%;
+  max-width: 62rem;
+}
+
+.bio-text {
+    width: 50%;
+    float: left;
+}
+
+.bio-details {
+    width: 45%;
+    float: right;
+}
+
+.bio-links {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+  background-color: #141414;
+  padding: 0.1px;
+  font-family:'open-sans', sans-serif;
+}
+
+.bio-contact ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+  left:0;
+  list-style-type: none;
+  vertical-align: middle;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.bio-contact ul li {
+  display: list-item;
+  float: left;
+  margin-right: 20px;
+  text-align: -webkit-match-parent;
+  vertical-align: middle;
+  left:0;
+}
+
+#email a {
+  color: #AAB1AD;
+  font-weight:600;
+  letter-spacing:.03rem
+}
+
+#email a:hover {
+  color: #ffffff;
+}
+
+#years p {
+  color:#141414;
+}
+
+.bio-contact ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .95rem;
+}
+
+.bio-contact ul li a:hover {
+  color: #AAB1AD;
+}
+
+/*.biography {
+  column-count: 2;
+  -moz-columns: 2;
+  -webkit-columns: 2;
+}*/
+
+.about-pic {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/about.png);
+  background-size: cover;
+  background-position: top;
+  display: block;
+}
+
+.latest-work {
+  position: relative;
+}
+
+.filler {
+  width:100%;
+  padding-right:25px;
+  padding-left:25px;
+  padding-top:20px;
+  padding-bottom:0px;
+}
+
+.filler .work-header {
+  position:relative;
+  width: 100%;
+  text-align: center;
+  font-size:2em;
+  letter-spacing:0.05rem;
+  color: #141414;
+  cursor:default;
+  text-transform:uppercase;
+  font-family:'lato', sans-serif;
+  font-weight:300;
+}
+
+.continue-on {
+  width:100%;
+  text-align:center;
+}
+
+.btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-family: 'open-sans', sans-serif;
+  color: #141414;
+  font-size: .65em;
+  font-weight:400;
+  letter-spacing:1px;
+  text-decoration: none;
+  text-transform:uppercase;
+  text-align:center;
+  background: #FFFFFF;
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:11px;
+  padding-bottom:11px;
+  border-radius: 3px;
+  background:transparent;
+  border: solid #141414 1.5px;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+  display:block;
+  min-width:75px;
+}
+
+.btn:hover {
+  background: #141414;
+  text-decoration: none;
+  color:#FFFFFF;
 }

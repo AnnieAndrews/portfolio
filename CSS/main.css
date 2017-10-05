@@ -23,7 +23,7 @@ body nav div {
 .navbar {
   position: fixed;
   padding: 0.5rem;
-  background-color: rgba(227,237,233,.98);
+  background-color: rgba(241,244,241,.98);
   overflow:hidden;
   width:100%;
   z-index: 2000;
@@ -107,10 +107,13 @@ body nav div {
   font-family: 'Gurmukhi MT', sans-serif;
   font-weight:600;
   cursor:pointer;
+  transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
 }
 
 .navbar li a:hover {
-  color:#B9CBC4;
+  color:#AAB1AD;
 }
 /*End Nav Bar CSS*/
 
@@ -180,7 +183,10 @@ body nav div {
 .social-bar li i {
   background-color: #FFFFFF;
   border-radius:100px;
-  padding: 10px;
+  padding: 7px;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
 }
 
 .social-bar li i:hover {
