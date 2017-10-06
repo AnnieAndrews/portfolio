@@ -10,6 +10,7 @@ line-height:.2rem;
 color:#141414;
 padding-bottom:0;
 margin-bottom:0;
+cursor:default;
 }
 
 .intro .subtitle {
@@ -22,6 +23,7 @@ text-transform:none;
 letter-spacing:0.03rem;
 line-height:1.2rem;
 color:#141414;
+cursor:default;
 }
 
 .intro .info {
@@ -34,6 +36,7 @@ text-transform:none;
 letter-spacing:0.03rem;
 line-height:1.9rem;
 color:#141414;
+cursor:default;
 }
 
 .about-me .title {
@@ -48,6 +51,7 @@ line-height:1.2rem;
 color:#141414;
 padding-bottom:.5em;
 border-bottom: 2px solid rgb(227, 237, 233);
+cursor:default;
 }
 
 .about-me .subtitle {
@@ -61,6 +65,7 @@ letter-spacing:0.03rem;
 line-height:1rem;
 color:#141414;
 width:100%;
+cursor:default;
 }
 
 .about-me .info {
@@ -72,6 +77,13 @@ font-weight:300;
 text-transform:none;
 letter-spacing:0.03rem;
 line-height:1.2rem;
+color:#141414;
+cursor:default;
+}
+
+.about-me .info a{
+text-decoration:none;
+font-weight:400;
 color:#141414;
 }
 
@@ -102,6 +114,13 @@ color:#141414;
   background-color: #141414;
   padding: 0.1px;
   font-family:'open-sans', sans-serif;
+  transition: all .2s ease-in-out;
+  border-radius:2px;
+}
+
+.bio-links:hover {
+  transform: scale(1.1);
+  background-color:#26af77;
 }
 
 .bio-contact ul {
@@ -129,13 +148,13 @@ color:#141414;
 }
 
 #email a {
-  color: #AAB1AD;
+  color: #ffffff;
   font-weight:600;
   letter-spacing:.03rem
 }
 
 #email a:hover {
-  color: #ffffff;
+  color: #AAB1AD;
 }
 
 #years p {
@@ -143,10 +162,13 @@ color:#141414;
 }
 
 .bio-contact ul li a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, .85);
   text-decoration: none;
   font-weight: 600;
   font-size: .95rem;
+  transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
 }
 
 .bio-contact ul li a:hover {
@@ -166,6 +188,7 @@ color:#141414;
   background-size: cover;
   background-position: top;
   display: block;
+  border-radius:2px;
 }
 
 .latest-work {
