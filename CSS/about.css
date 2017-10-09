@@ -1,6 +1,19 @@
+html, body{
+  height: 100%;
+}
+
+body {
+	background-image: url(../images/Portrait3.png);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #ffffff;
+}
+
 .intro .title {
 position:relative;
-font-family:'open-sans', sans-serif;
+font-family:'hind siliguri', sans-serif;
 text-align: left;
 font-size:3.3rem;
 font-weight:800;
@@ -15,7 +28,7 @@ cursor:default;
 
 .intro .subtitle {
 position:relative;
-font-family:'open-sans', sans-serif;
+font-family:'hind siliguri', sans-serif;
 text-align: left;
 font-size:2.3rem;
 font-weight:800;
@@ -28,10 +41,10 @@ cursor:default;
 
 .intro .info {
 position:relative;
-font-family:'open-sans', sans-serif;
+font-family:'assistant', sans-serif;
 text-align: left;
-font-size:1.6rem;
-font-weight:800;
+font-size:1.3rem;
+font-weight:500;
 text-transform:none;
 letter-spacing:0.03rem;
 line-height:1.9rem;
@@ -41,7 +54,7 @@ cursor:default;
 
 .about-me .title {
 position:relative;
-font-family:'open-sans', sans-serif;
+font-family:'assistant', sans-serif;
 text-align: left;
 font-size:3.3rem;
 font-weight:800;
@@ -56,26 +69,26 @@ cursor:default;
 
 .about-me .subtitle {
 position:relative;
-font-family:'open-sans', sans-serif;
+font-family:'assistant', sans-serif;
 text-align: left;
-font-size:2rem;
-font-weight:800;
-text-transform:none;
-letter-spacing:0.03rem;
+font-size:2em;
+font-weight:500;
+text-transform:uppercase;
+letter-spacing:0.05rem;
 line-height:1rem;
-color:#141414;
+color:#94918E;
 width:100%;
 cursor:default;
 }
 
 .about-me .info {
 position:relative;
-font-family:'open-sans', sans-serif;
+font-family:'hind siliguri', sans-serif;
 text-align: left;
-font-size:.95rem;
+font-size:.80rem;
 font-weight:300;
 text-transform:none;
-letter-spacing:0.03rem;
+letter-spacing:0.01rem;
 line-height:1.2rem;
 color:#141414;
 cursor:default;
@@ -98,29 +111,30 @@ color:#141414;
 }
 
 .bio-text {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
 .bio-details {
-    width: 45%;
-    float: right;
+  width: 45%;
+  float: right;
 }
 
 .bio-links {
   width: 100%;
-  float: left;
+  float:none;
   margin: 10px 0;
-  background-color: #141414;
+  background-color: rgba(170, 177, 173, .7);
   padding: 0.1px;
-  font-family:'open-sans', sans-serif;
+  font-family:'hind siliguri', sans-serif;
+  font-weight:300;
   transition: all .2s ease-in-out;
   border-radius:2px;
 }
 
 .bio-links:hover {
   transform: scale(1.1);
-  background-color:#26af77;
+  background-color:rgba(170, 177, 173, .9);
 }
 
 .bio-contact ul {
@@ -141,6 +155,8 @@ color:#141414;
 .bio-contact ul li {
   display: list-item;
   float: left;
+  font-family:'hind siliguri', sans-serif;
+  font-weight:300;
   margin-right: 20px;
   text-align: -webkit-match-parent;
   vertical-align: middle;
@@ -149,12 +165,13 @@ color:#141414;
 
 #email a {
   color: #ffffff;
-  font-weight:600;
-  letter-spacing:.03rem
+  font-weight:400;
+  letter-spacing:.03rem;
+  font-family:'hind siliguri', sans-serif;
 }
 
 #email a:hover {
-  color: #AAB1AD;
+  color: #D0D9D4;
 }
 
 #years p {
@@ -164,15 +181,16 @@ color:#141414;
 .bio-contact ul li a {
   color: rgba(255, 255, 255, .85);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   font-size: .95rem;
+  font-family:'hind siliguri', sans-serif;
   transition: color .2s ease-in-out;
   -moz-transition: color .2s ease-in-out;
   -webkit-transition: color .2s ease-in-out;
 }
 
 .bio-contact ul li a:hover {
-  color: #AAB1AD;
+  color: #D0D9D4;
 }
 
 /*.biography {
@@ -181,7 +199,7 @@ color:#141414;
   -webkit-columns: 2;
 }*/
 
-.about-pic {
+/*.about-pic {
   width: 100%;
   height: 500px;
   background-image: url(../images/about.png);
@@ -189,7 +207,7 @@ color:#141414;
   background-position: top;
   display: block;
   border-radius:2px;
-}
+}*/
 
 .latest-work {
   position: relative;
@@ -212,7 +230,7 @@ color:#141414;
   color: #141414;
   cursor:default;
   text-transform:uppercase;
-  font-family:'lato', sans-serif;
+  font-family:'hind siliguri', sans-serif;
   font-weight:300;
 }
 
@@ -224,7 +242,7 @@ color:#141414;
 .btn {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  font-family: 'open-sans', sans-serif;
+  font-family: 'hind siliguri', sans-serif;
   color: #141414;
   font-size: .65em;
   font-weight:400;
