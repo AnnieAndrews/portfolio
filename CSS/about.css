@@ -3,7 +3,7 @@ html, body{
 }
 
 body {
-	background-image: url(../images/Portrait3.png);
+	background-image: url(../images/Portrait2.png);
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -50,6 +50,7 @@ letter-spacing:0.03rem;
 line-height:1.9rem;
 color:#141414;
 cursor:default;
+width:84%;
 }
 
 .about-me .title {
@@ -121,9 +122,9 @@ color:#141414;
 }
 
 .bio-links {
-  width: 100%;
   float:none;
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom:40px;
   background-color: rgba(170, 177, 173, .7);
   padding: 0.1px;
   font-family:'hind siliguri', sans-serif;
@@ -137,7 +138,24 @@ color:#141414;
   background-color:rgba(170, 177, 173, .9);
 }
 
-.bio-contact ul {
+.contact {
+  float:left;
+  display:inline-block;
+  margin: 10px 0;
+  background-color: rgba(170, 177, 173, .7);
+  padding: 0.1px;
+  font-family:'hind siliguri', sans-serif;
+  font-weight:300;
+  font-size:.85em;
+  transition: all .2s ease-in-out;
+  border-radius:2px;
+  padding:10px;
+  margin-right:30px;
+  text-decoration:none;
+  color:#ffffff;
+}
+
+.about-me ul {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -152,7 +170,7 @@ color:#141414;
   -webkit-padding-start: 40px;
 }
 
-.bio-contact ul li {
+.about-me ul li {
   display: list-item;
   float: left;
   font-family:'hind siliguri', sans-serif;
@@ -165,7 +183,7 @@ color:#141414;
 
 #email a {
   color: #ffffff;
-  font-weight:400;
+  font-weight:600;
   letter-spacing:.03rem;
   font-family:'hind siliguri', sans-serif;
 }
@@ -178,10 +196,10 @@ color:#141414;
   color:#141414;
 }
 
-.bio-contact ul li a {
+.about-me ul li a {
   color: rgba(255, 255, 255, .85);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   font-size: .95rem;
   font-family:'hind siliguri', sans-serif;
   transition: color .2s ease-in-out;
@@ -189,7 +207,7 @@ color:#141414;
   -webkit-transition: color .2s ease-in-out;
 }
 
-.bio-contact ul li a:hover {
+.about-me ul li a:hover {
   color: #D0D9D4;
 }
 

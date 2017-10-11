@@ -190,7 +190,10 @@ input {
 
 label {
   display: block;
-  padding: 0.15em;
+  padding-top: 0.15em;
+  padding-bottom:0.15em;
+  padding-right:0;
+  padding-left:40px;
   text-align: center;
   border-bottom: 1px solid #CCC;
   color: rgb(255, 255, 255);
@@ -215,8 +218,8 @@ label:hover {
 
 label::before {
   font-family: 'monospace', sans-serif;
-  font-weight: bold;
-  font-size: 1.1rem;
+  font-weight: 400;
+  font-size: .9em;
   color:#ffffff;
   content: "+";
   vertical-align: middle;
@@ -224,7 +227,7 @@ label::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  margin-right: 3px;
+  margin-right: 20px;
   background: transparent;
   float:right;
 }

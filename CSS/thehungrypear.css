@@ -7,7 +7,7 @@
 .hero-content {
   position: relative;
   min-height: 700px;
-  background-image: url(../images/blocbin/background.png);
+  background-image: url(../images/thehungrypear/background.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -58,11 +58,13 @@ hr.thin {
 
 .body-name h4 {
   text-align:center;
-  font-size: 2em;
+  font-size: 3em;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-family:'hind siliguri', sans-serif;
-  font-weight:900;
+  margin-top:20px;
+  font-family:'Cookie', cursive;
+  font-weight:300;
+  color:#952852;
 }
 
 .body-name a {
@@ -158,7 +160,7 @@ section {
 }
 
 .body-copy .questions {
-  background-color: #F1F4F1;
+  background-color:rgba(95, 209, 170, .08);
   padding: .5em;
 }
 
@@ -175,6 +177,25 @@ section {
   line-height:2.2em;
   letter-spacing:.01em;
   font-weight:300;
+}
+
+.design h5 {
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  letter-spacing:0.02rem;
+  font-weight:500;
+  text-align: left;
+  text-transform:none;
+  font-family:'assistant', sans-serif;
+  color:#94918E;
+}
+
+.design p a {
+  color:#141414;
+  text-decoration:none;
+  font-weight:600;
 }
 
 /* Toggle coding */
@@ -204,7 +225,7 @@ label {
   text-transform:uppercase;
   cursor:pointer;
   width:100%;
-  background-color:#AAB1AD;
+  background-color:rgba(95, 209, 170, .9);
   border-radius:2px;
   margin: 0 0 20px 0;
   transition: color .2s ease-in-out;
@@ -213,7 +234,7 @@ label {
 }
 
 label:hover {
-  color: #D0D9D4;
+  color:rgba(255, 255, 255, .6);
 }
 
 label::before {
@@ -242,7 +263,7 @@ label::before {
 
 /*Toggles for Conclusion*/
 #toggle:checked ~ #expand {
-  height: 250px;
+  height: 110px;
   /*background-color:#141414;*/
 }
 
@@ -252,7 +273,7 @@ label::before {
 
 /*Toggles for The Solution*/
 #toggle2:checked ~ #expand {
-  height: 250px;
+  height: 140px;
 }
 
 #toggle2:checked ~ label::before {
@@ -261,7 +282,7 @@ label::before {
 
 /*Toggles for The Problem*/
 #toggle3:checked ~ #expand {
-  height: 250px;
+  height: 220px;
 }
 
 #toggle3:checked ~ label::before {
@@ -313,9 +334,8 @@ label::before {
   font-weight:400;
   font-size:.75em;
   text-transform:uppercase;
-  width:100%;
   text-align:center;
-  align-items:center;
-  display:inline-block;
-  margin-top:10px;
+  display:relative;
+  margin:0 auto;
+
 }
