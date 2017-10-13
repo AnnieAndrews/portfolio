@@ -61,7 +61,7 @@ hr.thin {
   font-size: 3em;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-top:20px;
+  margin-top:30px;
   font-family:'Cookie', cursive;
   font-weight:300;
   color:#952852;
@@ -291,7 +291,7 @@ label::before {
 
 /*Toggles for The Process*/
 #toggle4:checked ~ #expand {
-  height: auto;
+  height: 10450px;
 }
 
 #toggle4:checked ~ label::before {
@@ -335,7 +335,8 @@ label::before {
   font-size:.75em;
   text-transform:uppercase;
   text-align:center;
-  display:relative;
-  margin:0 auto;
-
+  display:block;
+  position:relative;
+  margin-top:30px;
+  margin-bottom:0;
 }
