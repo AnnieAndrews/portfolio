@@ -266,7 +266,7 @@ label::before {
 
 /*Toggles for Conclusion*/
 #toggle:checked ~ #expand {
-  height: 250px;
+  height: 220px;
   /*background-color:#141414;*/
 }
 
@@ -276,7 +276,7 @@ label::before {
 
 /*Toggles for The Solution*/
 #toggle2:checked ~ #expand {
-  height: 250px;
+  height: 120px;
 }
 
 #toggle2:checked ~ label::before {
@@ -285,7 +285,7 @@ label::before {
 
 /*Toggles for The Problem*/
 #toggle3:checked ~ #expand {
-  height: 250px;
+  height: 120px;
 }
 
 #toggle3:checked ~ label::before {
