@@ -4,14 +4,16 @@
   max-width: 62rem;
 }
 
-.hero-content {
-  position: relative;
-  min-height: 700px;
-  background-image: url(../images/solsquad/background.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment:fixed;
+@media (min-width:1071px) {
+  .hero-content {
+    position: relative;
+    min-height: 700px;
+    background-image: url(../images/solsquad/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:none;
+  }
 }
 
 .project {
@@ -138,9 +140,17 @@ hr.thin {
   color: #141414;
 }
 
-.conclusion p {
-  font-size: 1.05em;
-  text-align:center;
+@media (min-width:760px) {
+  .conclusion p {
+    font-size: 1.05em;
+    text-align:center;
+  }
+}
+@media (max-width:759px) {
+  .conclusion p {
+    font-size: .85em;
+    text-align:center;
+  }
 }
 
 .the-solution {
@@ -261,6 +271,52 @@ label::before {
   float:right;
 }
 
+@media (max-width:1070px) {
+  .container {
+    width:90%;
+  }
+  .hero-content {
+    min-height:570px;
+    position: relative;
+    background-image: url(../images/solsquad/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:none;
+  }
+}
+
+
+
+@media (max-width:620px) {
+  .container {
+    width:90%;
+  }
+  .hero-content {
+    min-height:400px;
+  }
+  .body-name h4 {
+    font-size:2.7em;
+    margin-top:30px;
+    margin-bottom:10px;
+  }
+  .body-intro {
+    padding: .2em 0;
+  }
+  .content-area .body-intro p {
+    font-size: .8em;
+    text-align:center;
+  }
+}
+
+@media (min-width:1071px) {
+  .container {
+    margin: 0 auto;
+    width:65%;
+    max-width: 62rem;
+  }
+}
+
 #expand {
   height: 0px;
   overflow: hidden;
@@ -269,41 +325,82 @@ label::before {
   color: #FFF;
 }
 
-/*Toggles for Conclusion*/
-#toggle:checked ~ #expand {
-  height: 320px;
-  /*background-color:#141414;*/
+@media (min-width:1020px) {
+  /*Toggles for Conclusion*/
+  #toggle:checked ~ #expand {
+    height: 320px;
+    /*background-color:#141414;*/
+  }
+
+  #toggle:checked ~ label::before {
+    content: "-";
+  }
+
+  /*Toggles for The Solution*/
+  #toggle2:checked ~ #expand {
+    height: 120px;
+  }
+
+  #toggle2:checked ~ label::before {
+    content: "-";
+  }
+
+  /*Toggles for The Problem*/
+  #toggle3:checked ~ #expand {
+    height: 120px;
+  }
+
+  #toggle3:checked ~ label::before {
+    content: "-";
+  }
+
+  /*Toggles for The Process*/
+  #toggle4:checked ~ #expand {
+    height: 10460px;
+  }
+
+  #toggle4:checked ~ label::before {
+    content: "-";
+  }
 }
 
-#toggle:checked ~ label::before {
-  content: "-";
-}
+@media (max-width:1019px) {
+  /*Toggles for Conclusion*/
+  #toggle:checked ~ #expand {
+    height: auto;
+    /*background-color:#141414;*/
+  }
 
-/*Toggles for The Solution*/
-#toggle2:checked ~ #expand {
-  height: 120px;
-}
+  #toggle:checked ~ label::before {
+    content: "-";
+  }
 
-#toggle2:checked ~ label::before {
-  content: "-";
-}
+  /*Toggles for The Solution*/
+  #toggle2:checked ~ #expand {
+    height: auto;
+  }
 
-/*Toggles for The Problem*/
-#toggle3:checked ~ #expand {
-  height: 120px;
-}
+  #toggle2:checked ~ label::before {
+    content: "-";
+  }
 
-#toggle3:checked ~ label::before {
-  content: "-";
-}
+  /*Toggles for The Problem*/
+  #toggle3:checked ~ #expand {
+    height: auto;
+  }
 
-/*Toggles for The Process*/
-#toggle4:checked ~ #expand {
-  height: 10460px;
-}
+  #toggle3:checked ~ label::before {
+    content: "-";
+  }
 
-#toggle4:checked ~ label::before {
-  content: "-";
+  /*Toggles for The Process*/
+  #toggle4:checked ~ #expand {
+    height: auto;
+  }
+
+  #toggle4:checked ~ label::before {
+    content: "-";
+  }
 }
 
 .btn {

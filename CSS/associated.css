@@ -316,9 +316,9 @@ input {
 }
 
 @media (min-width:1020px) {
-  /*Toggles for The Solution*/
+  /*Toggles for The Solution (Branding)*/
   #toggle2:checked ~ #expand {
-    height: 1350px;
+    height: 1490px;
   }
 
   #toggle2:checked ~ label::before {
