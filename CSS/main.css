@@ -80,7 +80,7 @@ body nav div {
     width:100%;
     padding-top:10px;
     padding-bottom:10px;
-    padding-left:16px;
+    padding-left:2%;
     text-align:center;
   }
   .navbar .links {
@@ -96,8 +96,8 @@ body nav div {
     padding-left: 1rem;
     height:100%;
     padding:0;
-    margin-left:20px;
-    float:left;
+    margin-left:2%;
+    float:none;
   }
   .links ul {
     padding:0;
@@ -185,10 +185,11 @@ body nav div {
   width:100%;
   z-index: 2000;
   box-shadow: 0 -1px 2px rgba(0,0,0,.08);
+  margin-top:20px;
 }
 
 .copyright-info {
-  width: 50%;
+  width: auto;
   float: left;
 }
 
@@ -207,7 +208,7 @@ body nav div {
 }
 
 .social-bar {
-  width: 50%;
+  width: auto;
   float: right;
   text-align: center;
 }
@@ -266,26 +267,41 @@ body nav div {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (max-width:650px) {
+@media (max-width:1120px) {
   .social-bar {
-    width: 100%;
+    width: auto;
     float: right;
-    margin-right:50px;
+    margin:0;
+    padding:0;
     text-align: center;
   }
+  .social-bar ul {
+    padding:0;
+  }
   .copyright-info {
-    width: 100%;
+    width: auto;
     margin-left:auto;
     float: left;
   }
-}
-
-@media (max-width:1120px) {
-  .copyright-info {
-    width: 80%;
-    float: left;
+  .copyright-info p {
+    width: 100%;
+    margin-top:20px;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    padding:0;
+    float: none;
   }
 }
+
+@media (max-width:535px) {
+  .social-bar {
+    width: auto;
+    float: left;
+    margin-left:20%;
+    padding:0;
+    text-align: center;
+  }
 
 /*End footer CSS*/
 
@@ -293,15 +309,20 @@ body nav div {
   .container {
     margin: 0 auto;
     width:65%;
-    max-width: 62rem;
+  }
+  .footer .container {
+    margin: 0 auto;
+    width:65%;
   }
 }
 
-@media (min-width:641px) {
+@media (max-width:1070px) {
   .container {
     margin: 0 auto;
     width:90%;
-    max-width: 62rem;
+  }
+  .footer .container {
+    width:85%;
   }
 }
 

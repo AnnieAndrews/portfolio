@@ -19,19 +19,21 @@
   max-width: 62rem;
 }
 
-.hero-content {
-  position: relative;
-  display:block;
-  min-height: 700px;
-  background-image: url(../images/hero.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment:fixed;
-  padding-bottom:0;
-  margin-bottom:0;
-  z-index:0;
-  text-align:center;
+@media (min-width:1071px) {
+  .hero-content {
+    position: relative;
+    display:block;
+    min-height: 700px;
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom:0;
+    margin-bottom:0;
+    z-index:0;
+    text-align:center;
+  }
 }
 
  .hero-content .logo {
@@ -44,9 +46,50 @@
  }
 
 
- @media (min-width:760px) {
+ @media (max-width:1070px) and (min-width:671px){
+   .container {
+     width:90%;
+   }
+   .hero-content .logo {
+     margin-top:350px;
+     width:500px;
+   }
+   .hero-content {
+     min-height:870px;
+     position: relative;
+     background-image: url(../images/hero.png);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     display:block;
+     background-attachment:fixed;
+     padding-bottom:0;
+     margin-bottom:0;
+     z-index:0;
+     text-align:center;
+   }
+ }
+
+ @media (max-width:670px) {
+   .container {
+     width:90%;
+   }
    .hero-content .logo {
      width:400px;
+   }
+   .hero-content {
+     min-height:570px;
+     position: relative;
+     background-image: url(../images/hero.png);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     display:block;
+     background-attachment:fixed;
+     padding-bottom:0;
+     margin-bottom:0;
+     z-index:0;
+     text-align:center;
    }
  }
 
@@ -55,8 +98,6 @@
      width:200px;
    }
  }
-
-
 
  .hero-content .my-name {
    font-size:4em;
@@ -124,13 +165,35 @@
   font-family:'hind siliguri', sans-serif;
 }
 
-.tiles article {
-  position:relative;
-  width: calc(50% - 1em);
-  margin-bottom:auto;
-  margin-top:1em;
-  margin-left:auto;
-  margin-right:auto;
+@media (max-width:1024px) {
+  .content {
+    opacity: 1;
+  }
+  .style1 .image {
+    opacity: .4;
+  }
+}
+
+@media (min-width:601px) {
+  .tiles article {
+    position:relative;
+    width: calc(50% - 1em);
+    margin-bottom:auto;
+    margin-top:1em;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+@media (max-width:600px) {
+  .tiles article {
+    position:relative;
+    width: 100%;
+    margin-bottom:auto;
+    margin-top:1em;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 
 .style1 {
@@ -141,15 +204,16 @@
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-.content {
-  opacity: 0;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-}
-
-.style1:hover .image {
-  opacity: .3;
+@media (min-width:1025px) {
+  .content {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+  .style1:hover .image {
+    opacity: .3;
+  }
 }
 
 .style1:hover .content {
