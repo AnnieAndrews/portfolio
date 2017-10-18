@@ -43,6 +43,21 @@
    margin-bottom:40px;
  }
 
+
+ @media (min-width:760px) {
+   .hero-content .logo {
+     width:400px;
+   }
+ }
+
+ @media (max-width:759px) {
+   .hero-content .logo {
+     width:200px;
+   }
+ }
+
+
+
  .hero-content .my-name {
    font-size:4em;
    text-align:center;
@@ -231,7 +246,7 @@ article {
   font-size: 1.2em;
   font-family:'hind siliguri', sans-serif;
   font-weight:400;
-  line-height:.6em;
+  line-height:1.5em;
   text-transform:none;
   text-decoration:none;
   letter-spacing:.01em;
@@ -244,6 +259,68 @@ article {
 .tiles article > a p:hover {
   visibility:visible;
   color:#141414;
+}
+
+@media (max-width:760px) {
+  .tiles article > a h1 {
+    color:#141414;
+    font-family:'hind siliguri', sans-serif;
+    margin:0;
+    font-size: 1.7em;
+    font-weight:600;
+    line-height:.9em;
+    text-transform:none;
+    text-decoration:none;
+    letter-spacing:.02em;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    padding:.5em;
+  }
+  .tiles article > a p {
+    margin:0;
+    font-size: 1.2em;
+    font-family:'hind siliguri', sans-serif;
+    font-weight:400;
+    line-height:1em;
+    text-transform:none;
+    text-decoration:none;
+    letter-spacing:.01em;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+}
+
+@media (max-width:540px) {
+  .tiles article > a h1 {
+    color:#141414;
+    font-family:'hind siliguri', sans-serif;
+    margin:0;
+    font-size: 1.4em;
+    font-weight:600;
+    line-height:.9em;
+    text-transform:none;
+    text-decoration:none;
+    letter-spacing:.02em;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    padding:.2em;
+  }
+  .tiles article > a p {
+    margin:0;
+    font-size: 1em;
+    font-family:'hind siliguri', sans-serif;
+    font-weight:400;
+    line-height:1.1em;
+    text-transform:none;
+    text-decoration:none;
+    letter-spacing:.01em;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
 }
 
 .continue-on {
