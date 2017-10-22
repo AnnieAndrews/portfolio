@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <!-- Google Analytics, tracking tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108347445-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108347445-1');
+    </script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -41,7 +50,8 @@
         <div class="container">
           <img src="images/logo2.png" class="logo">
           <!--<h1 class="my-name"><strong>Annie</strong> Andrews</h1>-->
-          <p class="name-detail">Denver based UX/UI Designer with a passion for creating intuitive designs that are founded on research, strategy, and problem solving.</p>
+          <p class="name-detail">Hello, I'm a Denver-based UX/UI Designer with a passion for creating intuitive designs that are founded on research, strategy, and problem solving.</p>
+          <a href="about.html" class="btn2">More about me</a>
         </div>
       </section>
 
@@ -50,12 +60,12 @@
         <div class="top-angle" style="border-left-width: 1425px; border-top-width: 70px;">
         </div>
         <div class="container">
-            <h4 class="work-header animated bounce"><a href='#view'><i class="fa fa-angle-down fa-lg"></i><!--View Projects--></a></h4>
+            <h4 class="work-header"><a href='#view' name="view" id ="view">View Projects</a></h4>
         </div>
       </section>
 
       <!-- Projects-->
-      <section class="tiles container"><a name="view" id="view"></a>
+      <section class="tiles container">
 
         <!-- The Hungry Pear -->
         <article class="style1">

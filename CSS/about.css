@@ -36,105 +36,142 @@ html, body{
 }
 
 .intro .title {
-position:relative;
-font-family:'hind siliguri', sans-serif;
-text-align: left;
-font-size:3.3rem;
-font-weight:800;
-text-transform:none;
-letter-spacing:0.03rem;
-line-height:.2rem;
-color:#141414;
-padding-bottom:0;
-margin-bottom:0;
-cursor:default;
+  position:relative;
+  font-family:'hind siliguri', sans-serif;
+  text-align: left;
+  font-size:3.3rem;
+  font-weight:800;
+  text-transform:none;
+  letter-spacing:0.03rem;
+  line-height:.2rem;
+  color:#141414;
+  padding-bottom:0;
+  margin-bottom:0;
+  cursor:default;
 }
 
 .intro .subtitle {
-position:relative;
-font-family:'hind siliguri', sans-serif;
-text-align: left;
-font-size:2.3rem;
-font-weight:800;
-text-transform:none;
-letter-spacing:0.03rem;
-line-height:1.2rem;
-color:#141414;
-cursor:default;
-}
-
-@media (min-width:700px) {
-  .intro .info {
   position:relative;
-  font-family:'assistant', sans-serif;
+  font-family:'hind siliguri', sans-serif;
   text-align: left;
-  font-size:1.3rem;
-  font-weight:500;
+  font-size:2.3rem;
+  font-weight:800;
   text-transform:none;
   letter-spacing:0.03rem;
-  line-height:1.9rem;
+  line-height:1.2rem;
   color:#141414;
   cursor:default;
-  width:78%;
-  }
-}
-@media (max-width:699px) {
-  .intro .info {
-  position:relative;
-  font-family:'assistant', sans-serif;
-  text-align: left;
-  font-size:1.1rem;
-  font-weight:500;
-  text-transform:none;
-  letter-spacing:0.02rem;
-  line-height:1.4rem;
-  color:#141414;
-  cursor:default;
-  width:52%;
-  margin-top:0;
-  margin-bottom:20px;
-  }
 }
 
 .about-me .title {
-position:relative;
-font-family:'assistant', sans-serif;
-text-align: left;
-font-size:3.3rem;
-font-weight:800;
-text-transform:none;
-letter-spacing:0.03rem;
-line-height:1.2rem;
-color:#141414;
-padding-bottom:.5em;
-border-bottom: 2px solid rgb(227, 237, 233);
-cursor:default;
+  position:relative;
+  font-family:'assistant', sans-serif;
+  text-align: left;
+  font-size:3.3rem;
+  font-weight:800;
+  text-transform:none;
+  letter-spacing:0.03rem;
+  line-height:1.2rem;
+  color:#141414;
+  padding-bottom:.5em;
+  border-bottom: 2px solid rgb(227, 237, 233);
+  cursor:default;
 }
 
 .about-me .subtitle {
-position:relative;
-font-family:'assistant', sans-serif;
-text-align: left;
-font-size:2em;
-font-weight:500;
-text-transform:uppercase;
-letter-spacing:0.05rem;
-line-height:1rem;
-color:#94918E;
-width:100%;
-cursor:default;
+  position:relative;
+  font-family:'assistant', sans-serif;
+  text-align: left;
+  font-size:2em;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:0.05rem;
+  line-height:1rem;
+  color:#94918E;
+  width:100%;
+  cursor:default;
 }
 
-@media (min-width:700px) {
+@media (min-width:1070px) {
+  .intro .info {
+    position:relative;
+    font-family:'assistant', sans-serif;
+    text-align: left;
+    font-size:1.3rem;
+    font-weight:500;
+    text-transform:none;
+    letter-spacing:0.03rem;
+    line-height:1.9rem;
+    color:#141414;
+    cursor:default;
+    width:70%;
+  }
   .about-me .info {
     position:relative;
     font-family:'hind siliguri', sans-serif;
     text-align: left;
-    font-size:.80rem;
+    font-size:18px;
     font-weight:300;
     text-transform:none;
-    letter-spacing:0.01rem;
-    line-height:1.2rem;
+    letter-spacing:0.01px;
+    line-height:25px;
+    color:#141414;
+    cursor:default;
+  }
+  .about-me .info a{
+    text-decoration:none;
+    font-weight:400;
+    color:#141414;
+  }
+  .about-me ul li {
+    display: list-item;
+    float: left;
+    font-family:'hind siliguri', sans-serif;
+    font-weight:300;
+    margin-right: 20px;
+    text-align: -webkit-match-parent;
+    vertical-align: middle;
+    left:0;
+  }
+  .about-me ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    left:0;
+    list-style-type: none;
+    vertical-align: middle;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+  }
+}
+
+@media (min-width:700px) and (max-width:1069px) {
+  .intro .info {
+    position:relative;
+    font-family:'assistant', sans-serif;
+    text-align: left;
+    font-size:26px;
+    font-weight:500;
+    text-transform:none;
+    letter-spacing:0.03rem;
+    line-height:1.9rem;
+    color:#141414;
+    cursor:default;
+    width:70%;
+  }
+  .about-me .info {
+    position:relative;
+    font-family:'hind siliguri', sans-serif;
+    text-align: left;
+    font-size:22px;
+    font-weight:300;
+    text-transform:none;
+    letter-spacing:0.03px;
+    line-height:26px;
     color:#141414;
     cursor:default;
   }
@@ -170,15 +207,30 @@ cursor:default;
 }
 
 @media (max-width:699px) {
+  .intro .info {
+    position:relative;
+    font-family:'assistant', sans-serif;
+    text-align: left;
+    font-size:1.1rem;
+    font-weight:500;
+    text-transform:none;
+    letter-spacing:0.02rem;
+    line-height:1.4rem;
+    color:#141414;
+    cursor:default;
+    width:52%;
+    margin-top:0;
+    margin-bottom:20px;
+  }
   .about-me .connect .info {
     position:relative;
     font-family:'hind siliguri', sans-serif;
     text-align: left;
-    font-size:.80rem;
+    font-size:15.5px;
     font-weight:300;
     text-transform:none;
-    letter-spacing:0.01rem;
-    line-height:1.2rem;
+    letter-spacing:0.01px;
+    line-height:21px;
     color:#141414;
     cursor:default;
   }
@@ -191,11 +243,11 @@ cursor:default;
     position:relative;
     font-family:'hind siliguri', sans-serif;
     text-align: left;
-    font-size:.80rem;
+    font-size:15.5px;
     font-weight:300;
     text-transform:none;
-    letter-spacing:0.01rem;
-    line-height:1.2rem;
+    letter-spacing:0.01px;
+    line-height:21px;
     color:#141414;
     cursor:default;
   }
@@ -208,11 +260,11 @@ cursor:default;
     position:relative;
     font-family:'hind siliguri', sans-serif;
     text-align: left;
-    font-size:.80rem;
+    font-size:15.5px;
     font-weight:300;
     text-transform:none;
-    letter-spacing:0.01rem;
-    line-height:1.2rem;
+    letter-spacing:0.01px;
+    line-height:21px;
     color:#141414;
     cursor:default;
   }
@@ -249,7 +301,7 @@ cursor:default;
 @media (min-width:1071px){
   .container {
     margin: 0 auto;
-    width:65%;
+    width:78%;
     max-width: 62rem;
   }
   .bio-text {

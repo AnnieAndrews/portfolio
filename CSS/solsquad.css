@@ -77,6 +77,19 @@ hr.thin {
   color:#141414;
 }
 
+.body-name .link {
+  text-decoration:none;
+  color:#141414;
+  transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+}
+
+.body-name:hover .link {
+  text-decoration:none;
+  color:#8096A2;
+}
+
 .content-area .body-intro p {
   font-size: 1.05em;
   text-align:center;
