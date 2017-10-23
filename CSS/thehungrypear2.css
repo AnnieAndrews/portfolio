@@ -307,7 +307,7 @@ hr.thin {
 }
 
 #branding {
-  background-color:#F9F7F3;
+  background-color:rgba(193, 175, 182, .13);
   margin-top:20px;
   padding-top:20px;
   margin-bottom:20px;
@@ -322,7 +322,7 @@ hr.thin {
 }
 
 .body-copy .questions {
-  background-color:rgba(95, 209, 170, .08);
+  background-color:rgba(193, 175, 182, .13);
   padding: .5em;
 }
 
