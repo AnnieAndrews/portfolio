@@ -1,91 +1,153 @@
-
-.hero-content {
-  position: relative;
-  min-height: 700px;
-  background-image: url(../images/associated/background.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment:none;
+@media (min-width:1071px) {
+  .container {
+    margin: 0 auto;
+    width:65%;
+    max-width: 62rem;
+  }
+  .hero-content {
+    position: relative;
+    min-height: 600px;
+    background-image: url(../images/associated/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+  }
+  .content-area h3 {
+    padding-bottom: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.4em;
+    letter-spacing:0.05rem;
+    font-weight:500;
+    border-bottom: 2px solid rgba(227, 237, 233, .90);
+    text-align: left;
+    text-transform:uppercase;
+    font-family:'assistant', sans-serif;
+    color:#94918E;
+    cursor:default;
+  }
+  .content-area .body-intro p {
+    font-size: 1.05em;
+    text-align:center;
+  }
+  .content-area p {
+    line-height: 1.8;
+    font-family: "hind siliguri",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    color:#141414;
+    font-size:.85rem;
+  }
+  label {
+    display: block;
+    padding-top: 0.15em 0;
+    text-align: left;
+    color: #141414;
+    font-family:'assistant', sans-serif;
+    font-size:2em;
+    letter-spacing:0.05em;
+    font-weight:500;
+    text-transform:uppercase;
+    cursor:default;
+    width:100%;
+    margin: 0;
+    margin-top:20px;
+    border-bottom: 2px solid rgba(227, 237, 233, .90);
+  }
 }
 
-.body-name h4 {
-  text-align:center;
-  font-size: 2em;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-family:'hind siliguri', sans-serif;
-  font-weight:900;
-}
-
-.body-name a {
-  text-decoration:none;
-  color:#141414;
-}
-
-label {
-  display: block;
-  padding-top: 0.15em;
-  padding-bottom:0.15em;
-  padding-right:0;
-  padding-left:40px;
-  text-align: center;
-  border-bottom: 1px solid #CCC;
-  color: rgb(255, 255, 255);
-  font-family:'assistant', sans-serif;
-  font-size:2em;
-  letter-spacing:0.05em;
-  font-weight:500;
-  text-transform:uppercase;
-  cursor:pointer;
-  width:100%;
-  background-color:#6EAD89;
-  border-radius:2px;
-  margin: 0 0 20px 0;
-  transition: color .2s ease-in-out;
-  -moz-transition: color .2s ease-in-out;
-  -webkit-transition: color .2s ease-in-out;
-}
-
-label:hover {
-  color: #D0D9D4;
-}
-
-label::before {
-  font-family: 'monospace', sans-serif;
-  font-weight: 400;
-  font-size: .9em;
-  color:#ffffff;
-  content: "+";
-  vertical-align: middle;
-  line-height:40px;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 20px;
-  background: transparent;
-  float:right;
-}
-
-
-@media (max-width:1070px) {
-  .navbar .container {
+@media (max-width:1070px) and (min-width:621px) {
+  .container {
     width:90%;
+    background-color:transparent;
+    margin: 0 auto;
+  }
+  .content-area h3 {
+    padding-bottom: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.6em;
+    letter-spacing:0.05rem;
+    font-weight:500;
+    border-bottom: 2px solid rgba(227, 237, 233, .90);
+    text-align: left;
+    text-transform:uppercase;
+    font-family:'assistant', sans-serif;
+    color:#94918E;
+    cursor:default;
   }
   .hero-content {
     min-height:570px;
+    position: relative;
+    background-image: url(../images/associated/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:none;
+  }
+  .content-area .body-intro p {
+    font-size: 22px;
+    text-align:center;
+  }
+  .content-area p {
+    font-family: "hind siliguri",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    color:#141414;
+    font-size:20px;
+    line-height: 24px;
+    letter-spacing:.5px;
+  }
+  label {
+    display: block;
+    padding-top: 0.15em 0;
+    text-align: left;
+    color: #141414;
+    font-family:'assistant', sans-serif;
+    font-size:2em;
+    letter-spacing:0.05em;
+    font-weight:500;
+    text-transform:uppercase;
+    cursor:default;
+    width:100%;
+    margin: 0;
+    margin-top:20px;
+    border-bottom: 2px solid rgba(227, 237, 233, .90);
   }
 }
 
 @media (max-width:620px) {
-  .navbar .container {
+  .container {
     width:90%;
   }
   .hero-content {
-    min-height:400px;
+    min-height:430px;
+    position: relative;
+    background-image: url(../images/associated/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment:none;
+  }
+  .content-area h3 {
+    padding-bottom: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.4em;
+    letter-spacing:0.05rem;
+    font-weight:500;
+    border-bottom: 2px solid rgba(227, 237, 233, .90);
+    text-align: left;
+    text-transform:uppercase;
+    font-family:'assistant', sans-serif;
+    color:#94918E;
+    cursor:default;
   }
   .body-name h4 {
-    font-size:1.7em;
+    font-size:2.7em;
     margin-top:30px;
     margin-bottom:10px;
   }
@@ -93,18 +155,50 @@ label::before {
     padding: .2em 0;
   }
   .content-area .body-intro p {
-    font-size: .8em;
+    font-size: 24px;
     text-align:center;
+  }
+  .content-area p {
+    line-height: 1.8;
+    font-family: "hind siliguri",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    color:#141414;
+    font-size:.85rem;
+  }
+  label {
+    display: block;
+    padding-top: 0.15em 0;
+    text-align: left;
+    color: #141414;
+    font-family:'assistant', sans-serif;
+    font-size:2em;
+    letter-spacing:0.05em;
+    font-weight:500;
+    text-transform:uppercase;
+    cursor:default;
+    width:100%;
+    margin: 0;
+    margin-top:20px;
+    border-bottom: 2px solid rgba(227, 237, 233, .90);
   }
 }
 
+.body-name h4 {
+  text-align:center;
+  font-size: 3em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top:30px;
+  font-family:'hind siliguri', sans-serif;
+  font-weight:300;
+  color:#952852;
+}
 
-@media (min-width:1071px) {
-  .container {
-    margin: 0 auto;
-    width:65%;
-    max-width: 62rem;
-  }
+.body-name a {
+  text-decoration:none;
+  color:#141414;
 }
 
 .project {
@@ -172,16 +266,6 @@ hr.thin {
 .body-name a {
   text-decoration:none;
   color:#141414;
-}
-
-.content-area p {
-  line-height: 1.8;
-  font-family: "hind siliguri",sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  text-align: left;
-  color:#141414;
-  font-size:.85rem;
 }
 
 .content-area h2 {
@@ -307,103 +391,43 @@ input {
   visibility: hidden;
 }
 
-#expand {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.5s;
-  background-color:transparent;
-  color: #FFF;
-}
 
-@media (min-width:1020px) {
-  /*Toggles for The Solution (Branding)*/
-  #toggle2:checked ~ #expand {
-    height: 1490px;
-  }
-
-  #toggle2:checked ~ label::before {
-    content: "-";
-  }
-
-  /*Toggles for The Problem*/
-  #toggle3:checked ~ #expand {
-    height: 160px;
-  }
-
-  #toggle3:checked ~ label::before {
-    content: "-";
-  }
-
-  /*Toggles for The Process*/
-  #toggle4:checked ~ #expand {
-    height: auto;
-  }
-
-  #toggle4:checked ~ label::before {
-    content: "-";
-  }
-}
-
-@media (max-width:1019px) {
-  /*Toggles for The Solution (Branding)*/
-  #toggle2:checked ~ #expand {
-    height: auto;
-  }
-
-  #toggle2:checked ~ label::before {
-    content: "-";
-  }
-
-  /*Toggles for The Problem (Scope)*/
-  #toggle3:checked ~ #expand {
-    height: auto;
-  }
-
-  #toggle3:checked ~ label::before {
-    content: "-";
-  }
-
-  /*Toggles for The Process*/
-  #toggle4:checked ~ #expand {
-    height: auto;
-  }
-
-  #toggle4:checked ~ label::before {
-    content: "-";
-  }
-}
-
-.btn {
+.btn2 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   font-family: 'hind siliguri', sans-serif;
-  color: #94918E;
-  font-size: .65em;
+  color: #141414;
+  font-size: 12px;
   font-weight:400;
   letter-spacing:1px;
   text-decoration: none;
   text-transform:uppercase;
   text-align:center;
-  background: #FFFFFF;
-  padding-right:30px;
-  padding-left:30px;
+  background-color: rgba(255, 255, 255, .92);
+  padding-right:10px;
+  padding-left:10px;
   padding-top:11px;
   padding-bottom:11px;
-  margin:auto 0;
-  margin-bottom:30px;
+  margin-top:30px;
+  margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
   border-radius: 3px;
-  background:transparent;
-  border: solid #94918E 1.5px;
-  align-items:center;
-  display:inline-block;
+  border: solid #141414 1px;
   position:relative;
-  min-width:75px;
+  display:table;
+  transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  width:auto;
+
 }
 
-.btn:hover {
-  background: #94918E;
+.btn2:hover {
+  background: #AAB1AD;
   text-decoration: none;
   color:#FFFFFF;
+  border-color:#AAB1AD;
 }
 
 .link {
